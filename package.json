@@ -1,0 +1,22 @@
+{
+  "name": "iconize",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.49.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "figma-plugin-ds": "^1.0.1",
+    "ts-loader": "^9.3.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
